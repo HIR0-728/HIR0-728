@@ -16,13 +16,14 @@ const WEEKS = 26;
 const MONTHS = 12;
 
 const THEMES = {
+  // bar / barTop: gradient (bottom → top), line: cumulative line
   dark: {
-    bg: "#0d1117", border: "#30363d", title: "#e6edf3", text: "#8b949e",
-    grid: "#21262d", bar: "#39d353", line: "#58a6ff",
+    bg: "#0d1117", border: "#3b2d5c", title: "#ede9fe", text: "#a39dbb",
+    grid: "#231c33", bar: "#8957e5", barTop: "#c297ff", line: "#f0a8ff",
   },
   light: {
-    bg: "#ffffff", border: "#d0d7de", title: "#1f2328", text: "#656d76",
-    grid: "#eaeef2", bar: "#2da44e", line: "#0969da",
+    bg: "#ffffff", border: "#d9ccf5", title: "#1f1633", text: "#6e6585",
+    grid: "#efeaf9", bar: "#6e40c9", barTop: "#a371f7", line: "#bf3989",
   },
 };
 
@@ -111,7 +112,7 @@ function renderChart({ x, y, w, h, title, buckets, theme, labelEvery }) {
     const label = (buckets.length - 1 - i) % labelEvery === 0
       ? `<text x="${(x + i * slot + slot / 2).toFixed(1)}" y="${y + h - 4}" class="axis" text-anchor="middle">${esc(b.label)}</text>`
       : "";
-    return `<rect class="bar" style="animation-delay:${(i * 0.02).toFixed(2)}s" x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${barW.toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="${theme.bar}"><title>${esc(b.label)}: ${b.value}</title></rect>${label}`;
+    return `<rect class="bar" style="animation-delay:${(i * 0.02).toFixed(2)}s" x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${barW.toFixed(1)}" height="${bh.toFixed(1)}" rx="2" fill="url(#barGrad)"><title>${esc(b.label)}: ${b.value}</title></rect>${label}`;
   });
   const linePath = points.map(([px, py], i) => `${i ? "L" : "M"}${px.toFixed(1)},${py.toFixed(1)}`).join(" ");
   const [lx, ly] = points.at(-1);
@@ -142,10 +143,11 @@ function renderSvg({ login, weekly, monthly, yearTotal, theme }) {
     @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
     @media (prefers-reduced-motion: reduce) { .bar, .line { animation: none; } }
   </style>
+  <defs><linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="${theme.bar}"/><stop offset="1" stop-color="${theme.barTop}"/></linearGradient></defs>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${theme.bg}" stroke="${theme.border}"/>
   <text x="${pad}" y="36" class="title">${esc(login)} · GitHub Activity</text>
   <text x="${W - pad}" y="36" class="meta" text-anchor="end">直近1年 ${yearTotal.toLocaleString("en-US")} contributions</text>
-  <text x="${W - pad}" y="52" class="meta" text-anchor="end"><tspan fill="${theme.bar}">▮</tspan> 期間別　<tspan fill="${theme.line}">―</tspan> 累計</text>
+  <text x="${W - pad}" y="52" class="meta" text-anchor="end"><tspan fill="${theme.barTop}">▮</tspan> 期間別　<tspan fill="${theme.line}">―</tspan> 累計</text>
   ${renderChart({ x: pad, y: 64, w: innerW, h: 165, title: `Weekly · 直近${WEEKS}週`, buckets: weekly, theme, labelEvery: 4 })}
   ${renderChart({ x: pad, y: 240, w: innerW, h: 165, title: `Monthly · 直近${MONTHS}か月`, buckets: monthly, theme, labelEvery: 1 })}
 </svg>
