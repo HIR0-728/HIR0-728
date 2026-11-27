@@ -1,103 +1,46 @@
+## Hi, I'm HIR0 👋
 
-## Hi! I'm HIR0-728:v:
+フリーランスの Web エンジニアです。バックエンドを軸に、フロントエンド、要件定義、プロダクト企画まで一貫して担当しています。
 
-<p align="center">
-  <a href="https://github.com/HIR0-728/HIR0-728/">
-    <img src="https://komarev.com/ghpvc/?username=HIR0-728" alt="HIR0-728" />
-  </a>
-  <a href="http://twitter.com/hir0_728">
-    <img height="20" src="https://img.shields.io/twitter/follow/hir0_728?label=Twitter&logo=twitter&style=flat" />
-  </a>
-  <a href="https://github.com/HIR0-728">
-    <img height="20" src="https://img.shields.io/github/followers/HIR0-728?label=follow&logo=github&style=flat" />
-  </a>  
-  <a href="http://qiita.com/HIR0-728">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/HIR0-728/posts.svg" />
-  </a>
-  <a href="http://qiita.com/HIR0-728">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/HIR0-728/contributions.svg" />
-  </a>
-</p>
+- **Backend**：Python / FastAPI、TypeScript / NestJS を中心に API 設計・開発
+- **Frontend**：Next.js、Nuxt3
+- **上流工程**：Biz・PdM・クライアントと連携した要件整理、仕様検討、設計
+- **Product**：新規プロダクトの企画、市場調査、要件定義、開発会社との調整、受け入れテスト（PdM として）
 
-<br>
+### 💼 Experience
 
-<p align="left">
-  <!-- my profile -->
-  Hi, my name is HIR0-728.<br>
-  I work mainly as a backend engineer.<br>
-  Experienced in all aspects of upstream and downstream processes. After working as an embedded engineer, I am now doing image processing, creating chatbots, and many other things.
-</p>
+| 時期 | 領域 | 役割 |
+|---|---|---|
+| 2022 – 現在 | 教育・SaaS・モビリティ・ヘルスケア・コミュニティ領域の Web サービス開発 | バックエンド / フルスタック |
+| 2024 – 現在 | 新規 to C アプリの企画・開発推進 | プロダクトマネージャー |
+| 2021 – 2022 | 顔認証システム、LINE チャットボット、来店者分析の研究開発 | プロジェクトリーダー / バックエンド |
+| 2017 – 2020 | PLC 機器のファームウェア開発、物体検出 AI・画像認識の研究開発 | 組込み / AI |
 
-<br>
+> Biz と開発の間に立ち、「何を作るべきか」から一緒に考えるのが得意です。
 
-### 💻 My GitHub Status
+### 🛠 Tech Stack
 
-<!-- GitHub Status -->
-<p align="left"> 
-  <img alt="Top used Langs" height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HIR0-728&layout=compact&count_private=true&show_icons=true&show_icons=true&theme=monokai" />
-  <img alt="GitHub Status" height="180px" src="https://github-readme-stats.vercel.app/api?username=HIR0-728&count_private=true&show_icons=true&show_icons=true&theme=monokai" />
-</p>
- 
-<details>
-  <summary>:trophy: GitHub trophys</summary>
-  <img alt="My Trophy" heiht="100px" src="https://github-profile-trophy.vercel.app/?username=HIR0-728&row=2&column=3&theme=monokai" />
-</details>
+| 分類 | 技術 |
+|---|---|
+| Languages | Python, TypeScript, JavaScript, C / C++ |
+| Backend | FastAPI, NestJS, Django, Flask, GraphQL |
+| Frontend | Next.js, Nuxt3 / Vue3, Flutter |
+| Database | PostgreSQL, MySQL, MongoDB, DynamoDB |
+| Cloud | AWS (Amplify Gen2, Lambda, Cognito, S3), GCP, Firebase, Docker |
+| AI-assisted Dev | Claude Code, Codex, Cursor, GitHub Copilot |
 
-### :muscle:My Skills
-<p align="left"> 
-  <img src="https://img.shields.io/badge/--3776AB.svg?logo=python&style=social">
-  <img src="https://img.shields.io/badge/--A8B9CC.svg?logo=C&style=social">
-  <img src="https://img.shields.io/badge/--00599C.svg?logo=cplusplus&style=social">
-  <img src="https://img.shields.io/badge/--CC342D.svg?logo=ruby&style=social">
-  <img src="https://img.shields.io/badge/--0078D6.svg?logo=windows&style=social">
-  <img src="https://img.shields.io/badge/--FCC624.svg?logo=linux&style=social">
-  <img src="https://img.shields.io/badge/--E95420.svg?logo=ubuntu&style=social">
-  <img src="https://img.shields.io/badge/--F05032.svg?logo=git&style=social">
-  <img src="https://img.shields.io/badge/--181717.svg?logo=github&style=social">
-  <img src="https://img.shields.io/badge/--007ACC.svg?logo=visualstudiocode&style=social">
-  <img src="https://img.shields.io/badge/--019733.svg?logo=vim&style=social">
-  <img src="https://img.shields.io/badge/--1488C6.svg?logo=docker&style=social">
-  <img src="https://img.shields.io/badge/--22314E.svg?logo=ROS&style=social">
-  <img src="https://img.shields.io/badge/--232F3E.svg?logo=amazon-aws&style=social">
-  <img src="https://img.shields.io/badge/--4479A1.svg?logo=mysql&style=social">
-  <img src="https://img.shields.io/badge/--336791.svg?logo=postgresql&style=social">
-  <img src="https://img.shields.io/badge/--5C3EE8.svg?logo=opencv&style=social">
-  <img src="https://img.shields.io/badge/--000000.svg?logo=flask&style=social">
-  <img src="https://img.shields.io/badge/--CC0000.svg?logo=Ruby%20on%20Rails&style=social">
-  <img src="https://img.shields.io/badge/--150458.svg?logo=pandas&style=social">
-  <img src="https://img.shields.io/badge/--013243.svg?logo=numpy&style=social">
-  <img src="https://img.shields.io/badge/--F37626.svg?logo=jupyter&style=social">
-  <img src="https://img.shields.io/badge/--FF4B4B.svg?logo=streamlit&style=social">
-  <img src="https://img.shields.io/badge/--FF6F00.svg?logo=TensorFlow&style=social">
-  <img src="https://img.shields.io/badge/--D00000.svg?logo=Keras&style=social">
-  <img src="https://img.shields.io/badge/--F7931E.svg?logo=scikit-learn&style=social">
-  <img src="https://img.shields.io/badge/--00C300.svg?logo=LINE&style=social">
-  <img src="https://img.shields.io/badge/--00C8FF.svg?logo=adobe-photoshop&style=social">
-  <img src="https://img.shields.io/badge/--ADD5EC.svg?logo=adobe-lightroom-classic&style=social">
-  <img src="https://img.shields.io/badge/--F5792A.svg?logo=blender&style=social">
-</p>
+### 📈 Activity
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
+  <img alt="GitHub activity" src="./assets/activity-light.svg" width="100%">
+</picture>
 
-<details>
-<summary> :thought_balloon:Technical fields of interest </summary>
-  
-<!--A list of technical information that interests you.-->
-* Image processing, Motion detection
-* Population intelligence, Machine learning
-* Drone technology
-* Front-end
+### 🌱 Beyond Code
 
+写真・映像制作や SNS 運用も行っています。
+いつか、IT の力で動物を助けるプロダクトをつくるのが目標です。
 
-</details>
+### 📫 Contact
 
-### :star2: My Dream
-One day, to create products that help animals through the power of IT.
-
-#### :eyes:Contact me
-
-[<img alt="Twitter" src="https://img.shields.io/badge/-Twitter-1DA1F2.svg?logo=twitter&style=popout">](http://twitter.com/hir0_728)
-[<img alt="Mail" src="https://img.shields.io/badge/-Gmail-D14836.svg?logo=gmail&style=popout">](mailto:air0ta.working@gmail.com)
-
-
-
-<!-- "https://tech-blog.s-yoshiki.com/entry/150/?referer=https://t.co/" -->
+[![X](https://img.shields.io/badge/-@hir0__728-000000?logo=x&style=flat)](https://x.com/hir0_728)
